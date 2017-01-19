@@ -1,0 +1,223 @@
+*{
+  font-family: 'Nunito', sans-serif;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: url(../images/SVG-bg.svg);
+
+}
+.container {
+  background-color: #EDEFF0;
+}
+
+div {
+  display: block;
+}
+
+
+a.logo {
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+    color: #3a3a3a;
+
+  }
+
+  a.logo span {
+    color: red;
+ }
+ a.logo:hover {
+   text-decoration: none;
+   color: #3a3a3a;
+ }
+
+ul.menu {
+  float: right;
+  margin-top: 27px;
+}
+
+ul.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+ul.menu li a {
+    color: #009ca8;
+    text-decoration-color: red;
+}
+ul.menu li a:hover{
+    text-decoration:underline;
+    border-bottom: 2px solid red;
+}
+
+.img-responsive {
+  margin-top: 50px;
+  margin-bottom: -20px;
+  padding: 10px;
+  border: 3px inset #009ca8;
+}
+.social-band {
+  margin-left: 150px;
+  margin-top: 15px;
+  color: #009ca8;
+
+}
+.social-band .col-md-4 {
+  margin-left: -20px;
+}
+
+.social-band .fa-facebook  {
+  margin-left: 125px;
+}
+.social-band .fa-linkedin  {
+   margin-left: -125px;
+}
+
+.about-btn {
+  text-align: center;
+}
+
+
+.about-btn button {
+  margin: 0 auto;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 1.25rem 2.5rem;
+  display: block;
+  background-color: #009ac9;
+  border: 1px solid transparent;
+  color: #ffffff;
+  font-weight: 300;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.about-btn button:hover {
+  background-color: #ffffff;
+  color: #009ac9;
+  border-color: red;
+}
+ .about-me {
+   background-color: white;
+   
+   margin-top: 30px;
+ }
+ .lang-title {
+   text-align: center;
+ }
+ .skills{
+   background-color: white;
+   width: 100%;
+ }
+
+ ul.lang li {
+     list-style: none;
+     display: inline-block;
+     padding-right: 40px;
+     padding-top: 9px;
+     font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-left: 10px;
+    color: #9D9E9E;
+
+ }
+ .hob-title {
+   text-align: center;
+ }
+
+ ul.hobbies li {
+     list-style: none;
+     display: inline-block;
+     padding-right: 40px;
+     padding-top: 9px;
+     margin-left: 10px;
+ }
+
+ .fa-headphones {
+   color:red;
+ }
+
+ .fa-coffee {
+   color: #FAC2AC;
+ }
+
+ .fa-bicycle {
+   color:  #009ca8;
+ }
+.slide {
+  margin-bottom: 150px;
+}
+
+.slide .icon-first {
+    color: #ED5A64;
+}
+
+.slide .fa-trophy {
+    color: #009ca8;
+}
+
+.slide .icon {
+    color: #009ca8;
+}
+.item-1,
+.item-2,
+.item-3 {
+
+  position: absolute;
+  display: block;
+	top: 2em;
+
+  width: 100%;
+
+  font-size: 2em;
+
+	animation-duration: 10s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+}
+
+.item-1{
+	animation-name: anim-1;
+}
+
+.item-2{
+	animation-name: anim-2;
+}
+
+.item-3{
+	animation-name: anim-3;
+}
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 40%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-2 {
+	0%, 33.33% { left: -100%; opacity: 0; }
+  41.63%, 58.29% { left: 40%; opacity: 1; }
+  66.66%, 100% { left: 110%; opacity: 0; }
+}
+
+@keyframes anim-3 {
+	0%, 66.66% { left: -100%; opacity: 0; }
+  74.96%, 91.62% { left: 40%; opacity: 1; }
+  100% { left: 110%; opacity: 0; }
+}
